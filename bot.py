@@ -7,7 +7,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 from pyrogram.errors.exceptions.bad_request_400 import AccessTokenExpired, AccessTokenInvalid
 from config import API_ID, API_HASH, ADMINS, DB_NAME
 from config import DB_URI as MONGO_URL
-from script import CLONE_TXT
+CLONE_TXT = "Your clone text goes here."
+
 
 pr0fess0r_99 = Client(
     "Auto Approved Bot",
